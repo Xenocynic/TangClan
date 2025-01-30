@@ -1,20 +1,27 @@
 package com.example.tangclan;
 
-public class Diamond extends Shape {
-    private double area;
+Public class Diamond extends Shape{
+    private double diagonal1;
+    private double diagonal2;
 
-    // Constructor to initialize x, y, and area
-    public Diamond(int x, int y, double area) {
-        this.x = x;
-        this.y = y;
-        this.area = area;
-    }
-    public double getArea() {
-        return area;
+    public double getDiagonal1() {
+        return diagonal1;
     }
 
-    public void setArea(double Area) {
-        this.area = area;
+    public void setDiagonal1(double diagonal1) {
+        this.diagonal1 = diagonal1;
     }
 
+    public double getDiagonal2() {
+        return diagonal2;
+    }
+
+    public void setDiagonal2(double diagonal2) {
+        this.diagonal2 = diagonal2;
+    }
+
+    public Diamond(double diagonal1, double diagonal2){
+        this.diagonal1 = diagonal1;
+        this.diagonal2 = diagonal2;
+    }
 }
