@@ -4,6 +4,7 @@ public abstract class Shape {
     int x;
     int y;
 
+    // Setters and Getters
     public int getX() {
         return x;
     }
