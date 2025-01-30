@@ -22,7 +22,7 @@ public abstract class Shape {
     }
 
     public class Shape {
-        String color = "purple";
+        String color = "green";
     }
 
 
