@@ -3,6 +3,7 @@ package com.example.tangclan;
 public abstract class Shape {
     int x;
     int y;
+<<<<<<< HEAD
     String color = "red";
 
     // Setters and Getters
